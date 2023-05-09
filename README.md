@@ -2,7 +2,7 @@
 
 ## Description
 
-React application to search for images or gifs by making requests to the GIPHY API.
+React application to search for images or gifs by making requests to the [GIPHY API](https://developers.giphy.com/)
 
 This is a small application that has as a learning objective to use React with custom Hooks to solve a specific need.
 
