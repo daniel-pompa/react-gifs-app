@@ -5,7 +5,7 @@ import GifGrid from './components/GifGrid';
 function App() {
   /* Create categories state.
   It starts as an empty array and will be filled with what the user types in the form */
-  const [categories, setCategories] = useState(['Los Simpsons']);
+  const [categories, setCategories] = useState([]);
 
   const handleAddCategory = newCategory => {
     // Validate that categories are not repeated
