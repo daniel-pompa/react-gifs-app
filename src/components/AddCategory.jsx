@@ -20,7 +20,7 @@ const AddCategory = ({ onNewCategory }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} aria-label='form'>
       <input
         type='text'
         placeholder='Buscar gifs'
@@ -32,7 +32,7 @@ const AddCategory = ({ onNewCategory }) => {
 };
 
 AddCategory.propTypes = {
-  onNewCategory: PropTypes.func,
+  onNewCategory: PropTypes.func.isRequired,
 };
 
 export default AddCategory;
