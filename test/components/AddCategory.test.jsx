@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import AddCategory from '../../src/components/AddCategory';
 
-describe('Testing in the component <AddCategory />', () => {
+describe('Tests on the component <AddCategory />', () => {
   test('Should change the text box value', () => {
     render(<AddCategory onNewCategory={() => {}} />);
 

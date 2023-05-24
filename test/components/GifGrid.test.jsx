@@ -4,7 +4,7 @@ import { useFetchGifs } from '../../src/hooks/useFetchGifs';
 
 jest.mock('../../src/hooks/useFetchGifs');
 
-describe('Tests in <GrifGrid />', () => {
+describe('Tests on <GrifGrid />', () => {
   const category = 'Dragon Ball';
 
   test('Should display initial loading', () => {

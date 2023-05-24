@@ -1,6 +1,6 @@
 import { getGifs } from '../../src/helpers';
 
-describe('Tests in getGifs()', () => {
+describe('Tests on getGifs()', () => {
   test('Should return an array of gifs', async () => {
     const gifs = await getGifs('Dragon Ball');
     expect(gifs.length).toBeGreaterThan(0);
