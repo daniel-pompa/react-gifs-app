@@ -71,7 +71,7 @@ Tests prove that your code works in every situation in which it’s designed to 
 To run tests, run the following command in the project directory
 
 ```bash
-npm run test
+yarn test
 ```
 
 ### Jest
